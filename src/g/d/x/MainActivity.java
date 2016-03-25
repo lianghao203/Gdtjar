@@ -16,7 +16,7 @@ import android.widget.TextView;
 public class MainActivity extends Activity {
 
 	private Button bt;
-	private TextView tv1;
+	// private TextView tv1;
 	private static Context context;
 
 	@Override
@@ -25,7 +25,7 @@ public class MainActivity extends Activity {
 		context = this;
 		setContentView(R.layout.activity_main);
 		bt = (Button) findViewById(R.id.button1);
-		tv1 = (TextView) findViewById(R.id.textView1);
+		// tv1 = (TextView) findViewById(R.id.textView1);
 		Guangdiantong.getInstance(context);
 		bt.setOnClickListener(new OnClickListener() {
 
